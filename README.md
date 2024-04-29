@@ -38,3 +38,21 @@ On Unix or MacOS: source venv/bin/activate
 4. Install the project dependencies:
    pip install -r requirements.txt
 
+Configuration
+Copy .env.example to a new file named .env and update the environment variables accordingly.
+
+Running the Application
+1. Set the FLASK_APP environment variable:
+   export FLASK_APP=main.py  # Unix/MacOS
+   set FLASK_APP=main.py  # Windows
+
+2. Run the Flask development server:
+   flask run
+   The application will be accessible at http://127.0.0.1:5000/.
+
+Built With
+Flask - The web framework used
+
+
+
+
